@@ -3,15 +3,14 @@ import './App.css'
 
 function App() {
 
-  function saySomething() {
-    console.log( "Nathaniel Cowan")
+  function setname(name) {
+    return "Hello" + name
   }
 
-  saySomething();
 
   return (
     <div>
-      Hello World!
+      {setname("Nathaniel")}
     </div>
   )
 }
