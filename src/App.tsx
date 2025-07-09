@@ -3,9 +3,11 @@ import './App.css'
 
 function App() {
 
-  let happy = true;
-  let fun = true;
-  console.log( happy && false);
+  function saySomething() {
+    console.log( "Nathaniel Cowan")
+  }
+
+  saySomething();
 
   return (
     <div>
